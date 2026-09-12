@@ -1,0 +1,6 @@
+[Unit]
+Description=Back up DarkTsunami Keep database
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/darktsunami-backup
